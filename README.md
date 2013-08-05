@@ -1,10 +1,10 @@
-# Plugin
+# Project Name
 
-TODO: Write a project description.
+TODO: Write a project description
 
 ## Installation
 
-TODO: Describe the installation process.
+TODO: Describe the installation process
 
 ## Usage
 
@@ -12,36 +12,20 @@ TODO: Write usage instructions
 
 ## Contributing
 
-* Clone this repository.
-
-```git
-git clone git@github.com:DiegoLopesLima/Plugin.git
-```
-
-* Change folder name (Plugins).
-* Change file names (`plugin.js`, `plugin.jquery.json`).
-* Change the package file.
-* Customize the plugin panifest.
-* Install packages.
-
-```git
-npm install
-```
-
-* Execute the grunt task.
-
-```git
-grunt
-```
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
 
 ## History
 
-TODO: Write history.
+TODO: Write history
 
 ## Credits
 
-TODO: Write credits.
+TODO: Write credits
 
 ## License
 
-TODO: Write license.
+TODO: Write license
