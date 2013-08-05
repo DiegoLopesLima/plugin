@@ -1,0 +1,31 @@
+{
+	"name": "plugin",
+	"title": "Plugin",
+	"description": "Plugin description.",
+	"keywords": ["plugin"],
+	"version": "0.0.0",
+	"author": {
+		"name": "Diego Lopes Lima",
+		"email" : "contact.diego.lima@gmail.com",
+		"url": "https://github.com/DiegoLopesLima"
+	},
+	"maintainers": [
+		{
+			"name": "Diego Lopes Lima",
+			"email": "contact.diego.lima@gmail.com",
+			"url": "https://github.com/DiegoLopesLima"
+		}
+	],
+	"licenses": [
+		{
+			"type": "CC BY 3.0",
+			"url": "http://www.opensource.org/licenses/mit-license.php"
+		}
+	],
+	"bugs": "https://github.com/DiegoLopesLima/Plugin/issues",
+	"docs": "https://github.com/DiegoLopesLima/Plugin#readme",
+	"download": "https://github.com/DiegoLopesLima/Plugin/archive/master.zip",
+	"dependencies": {
+		"jquery": ">=1.0.0"
+	}
+}
