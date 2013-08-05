@@ -18,8 +18,10 @@ TODO: Write usage instructions
 git clone git@github.com:DiegoLopesLima/Plugin.git
 ```
 
-* Change file names (_plugin.js_, _plugin.jquery.json_).
+* Change folder name (Plugins).
+* Change file names (`plugin.js`, `plugin.jquery.json`).
 * Change the package file.
+* Customize the plugin panifest.
 * Install packages.
 
 ```git
