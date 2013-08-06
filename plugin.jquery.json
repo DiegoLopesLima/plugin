@@ -26,6 +26,6 @@
 	"docs": "https://github.com/DiegoLopesLima/Plugin#readme",
 	"download": "https://github.com/DiegoLopesLima/Plugin/archive/master.zip",
 	"dependencies": {
-		"jquery": ">=1.0.0"
+		"jquery": ">=0.0.0"
 	}
 }
