@@ -20,24 +20,9 @@ Describe the plugin usage.
 ## Contributing
 
 1. Fork the project.
-2. Create your feature branch.
-
-```git
-git checkout -b branch-name
-```
-
-3. Commit your changes.
-
-```git
-git commit -m "Changes description" -a
-```
-
-4. Push to the branch.
-
-```git
-git push origin branch-name
-```
-
+2. Create your feature branch. `git checkout -b branch-name`
+3. Commit your changes. `git commit -m "Changes description" -a`
+4. Push to the branch. `git push origin branch-name`
 5. Submit a pull request.
 
 ## History
