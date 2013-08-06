@@ -1,31 +1,48 @@
-# Project Name
+# Plugin
 
-TODO: Write a project description
+Plugin description.
 
-## Installation
+## Demo
 
-TODO: Describe the installation process
+* [First demo description]().
+* [Second demo description]().
+* [Third demo description]().
 
 ## Usage
 
-TODO: Write usage instructions
+Describe the plugin usage.
 
 ## Contributing
 
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+* Fork the project.
+* Create your feature branch.
+
+```git
+git checkout -b branch-name
+```
+
+* Commit your changes.
+
+```git
+git commit -m "Changes description" -a
+```
+
+* Push to the branch.
+
+```git
+git push origin branch-name
+```
+
+* Submit a pull request.
 
 ## History
 
-TODO: Write history
+Write the project history or change log.
 
 ## Credits
 
-TODO: Write credits
+Write the project credits.
 
 ## License
 
-TODO: Write license
+Write the project license.
