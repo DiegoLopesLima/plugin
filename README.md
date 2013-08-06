@@ -1,6 +1,6 @@
 # Plugin <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" target="_blank" title="Creative Commons License"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a>
 
-[![Build Status](https://travis-ci.org/DiegoLopesLima/Validate.png)](https://travis-ci.org/DiegoLopesLima/Validate)
+[![Build Status](https://travis-ci.org/DiegoLopesLima/Plugin.png)](https://travis-ci.org/DiegoLopesLima/Plugin)
 
 Plugin description.
 
