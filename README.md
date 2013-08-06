@@ -6,14 +6,12 @@ Plugin description.
 
 ## Demo
 
-* Lorem ipsum
-	* [Dipisicing elit]()
-	* [Lorem ipsum dolor sit amet]()
-* [Lorem ipsum dolor sit amet]()
-* Dolor sit amet
-	* [Lorem ipsum dolor sit amet]()
-* [Dolor sit amet]()
-* [Consectetur adipisicing elit]()
+* [Molestiae, enim]()
+* [Ex, accusamus]()
+* [Totam, quod]()
+* [Adipisci, beatae]()
+* [Hic, id]()
+* [Quo, temporibus]()
 
 ## Usage
 
@@ -21,26 +19,26 @@ Describe the plugin usage.
 
 ## Contributing
 
-* Fork the project.
-* Create your feature branch.
+1. Fork the project.
+2. Create your feature branch.
 
 ```git
 git checkout -b branch-name
 ```
 
-* Commit your changes.
+3. Commit your changes.
 
 ```git
 git commit -m "Changes description" -a
 ```
 
-* Push to the branch.
+4. Push to the branch.
 
 ```git
 git push origin branch-name
 ```
 
-* Submit a pull request.
+5. Submit a pull request.
 
 ## History
 
