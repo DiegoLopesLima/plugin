@@ -1,5 +1,4 @@
-/*! Plugin name[ | URL] */
-;(function($, window, undefined) {
+(function($, window, undefined) {
 
 	'use strict';
 
