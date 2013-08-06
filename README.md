@@ -1,4 +1,4 @@
-# Plugin <a rel="license" href="http://creativecommons.org/licenses/by/3.0/" target="_blank" title="Creative Commons License"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a>
+# Plugin [![Creative Commons License](http://i.creativecommons.org/l/by/3.0/80x15.png)](http://creativecommons.org/licenses/by/3.0/)
 
 [![Build Status](https://travis-ci.org/DiegoLopesLima/Plugin.png)](https://travis-ci.org/DiegoLopesLima/Plugin)
 
@@ -6,9 +6,14 @@ Plugin description.
 
 ## Demo
 
-* [First demo description]().
-* [Second demo description]().
-* [Third demo description]().
+* Lorem ipsum
+	* [Dipisicing elit]()
+	* [Lorem ipsum dolor sit amet]()
+* [Lorem ipsum dolor sit amet]()
+* Dolor sit amet
+	* [Lorem ipsum dolor sit amet]()
+* [Dolor sit amet]()
+* [Consectetur adipisicing elit]()
 
 ## Usage
 
