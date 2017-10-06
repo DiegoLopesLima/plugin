@@ -1,12 +1,10 @@
-# Plugin [![Creative Commons License](http://i.creativecommons.org/l/by/3.0/80x15.png)](http://creativecommons.org/licenses/by/3.0/)
-
-[![Build Status](https://travis-ci.org/DiegoLopesLima/Plugin.png)](https://travis-ci.org/DiegoLopesLima/Plugin)
+# Plugin [![Creative Commons License]
 
 Plugin description.
 
 ## Demo
 
-* [Molestiae, enim]()
+* [Lorem ipsum]()
 * [Ex, accusamus]()
 * [Totam, quod]()
 * [Adipisci, beatae]()
