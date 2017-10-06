@@ -3,7 +3,7 @@
 	"title": "Plugin",
 	"description": "Plugin description.",
 	"keywords": ["plugin"],
-	"version": "0.0.0",
+	"version": "1.0.0-alpha",
 	"author": {
 		"name": "Diego Lopes Lima",
 		"email" : "contact.diego.lima@gmail.com",
@@ -18,13 +18,12 @@
 	],
 	"licenses": [
 		{
-			"type": "CC BY 3.0",
-			"url": "http://creativecommons.org/licenses/by/3.0/"
+			"type": "MIT",
+			"url": "https://github.com/DiegoLopesLima/Plugin/blob/master/LICENSE.md"
 		}
 	],
 	"bugs": "https://github.com/DiegoLopesLima/Plugin/issues",
 	"docs": "https://github.com/DiegoLopesLima/Plugin#readme",
-	"download": "https://github.com/DiegoLopesLima/Plugin/archive/master.zip",
 	"dependencies": {
 		"jquery": ">=0.0.0"
 	}
