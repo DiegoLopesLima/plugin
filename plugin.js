@@ -1,59 +1,61 @@
-(function($, window, undefined) {
+{
 
-	'use strict';
+	const
 
-	var
-
-		document = window.document,
-
-		// Plugin name
 		name = 'plugin',
 
-		// Default properties
-		defaults = {
-			property : 'value'
-		},
+		reserved = `__${name}__`,
 
-		plugin = {
-			init : function() {
+		$ = window.jQuery;
 
-				var
+	let
 
-					element = $(this),
+		defaults = {};
 
-					options = element.data(name);
+	class Plugin {
 
-				// Plugin initialization logic
-			},
+		constructor(element, options) {
 
-			// Usage:
-			// $(selector).plugin('destroy');
-			destroy : function() {
+			this.element = element;
 
-				return $(this).off('.' + name).removeData(name);
-			}
-		};
+			this.options = $.extend({}, defaults, options);
 
-	$.fn[name] = function(options) {
+			// Custom code
 
-		var
+		}
 
-			args = arguments;
+		destroy() {
+
+			// Custom code
+
+		}
+
+	}
+
+	$.fn[name] = function(options = {}, ...other) {
 
 		return $(this).each(function() {
 
-			if(typeof plugin[options] == 'function') return plugin[options].apply(this, [].slice.call(args, 1));
+			var element = $(this);
 
-			plugin.init.call(plugin.destroy.call(this).data(name, $.extend({}, defaults, options)));
+			if (typeof options === 'string' && Plugin.prototype.hasOwnProperty(options)) {
+
+				let instance = element.data(reserved);
+
+				return instance[options].apply(instance, other);
+
+			}
+
+			element.data(reserved, new Plugin(element, options, other)) ;
+
 		});
+
 	};
 
-	// 
-	$[name] = $.extend(function(element) {
+	$[name] = {
+		version: '1.0.0-alpha',
+		setDefaultOptions: options => $.extend(defaults, options),
+		extend: (name, handler) => typeof name === 'string' && typeof handler !== 'undefined' ? Plugin.prototype[name] = handler : $.extend(Plugin.prototype, name)
+	};
 
-		return $.fn[name].apply(element, [].slice.call(arguments, 1));
-	}, {
-		// Plugin version
-		version : '0.0.0'
-	});
-})(jQuery, window);
+}
