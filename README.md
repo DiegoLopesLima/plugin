@@ -1,4 +1,4 @@
-# Plugin [![Creative Commons License]
+# Plugin
 
 Plugin description.
 
